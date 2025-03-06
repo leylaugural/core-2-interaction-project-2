@@ -66,7 +66,7 @@ font-style: normal;
     text-align: center;
     margin-top: 1vw;
     color: #FFD5FA;
-    height: 30vh;
+    height: auto;
     border-radius: 0.992vw;
 }
 
@@ -206,6 +206,7 @@ select, button {
         width: 300px;
         text-align: center;
         position: relative;
+        height:auto;
     }
     
     .machine-box{
@@ -216,7 +217,7 @@ select, button {
         text-align: center;
         margin-top: 1vw;
         color: #FFD5FA;
-        height: 30vh;
+        height: auto;
         border-radius: 0.992vw;
     }
     
