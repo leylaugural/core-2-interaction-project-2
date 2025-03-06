@@ -26,13 +26,13 @@ function generateFlavor() {
         "cheesecake-mint": ["Mint Cheesecake Swirl (pls go with another one) ","images/strawberry_caramel.jpg", "/core-2-interaction-project-2/assets/mint-cheesecake.png"],
         "mint-sorbet": ["Mint Shortcake Swirl", "images/strawberry_mint.jpg", "images/bg_strawberry_mint.jpg"],
         "chip-mint": ["Mint Chocolate Chip Swirl", "images/caramel_chocolate.jpg", "/core-2-interaction-project-2/assets/mint-chip.png"],
-        "white-mint": ["Mint Cookie Dough Swirl", "images/vanilla_mint.jpg", "images/bg_vanilla_mint.jpg"],
+        "mint-white": ["Mint & White Chocolate Swirl", "images/vanilla_mint.jpg", "/core-2-interaction-project-2/assets/mint-whute.png"],
         "hazelnut-mint": ["No sorry this is a crime", "images/strawberry_caramel.jpg", "images/bg_strawberry_caramel.jpg"],
-        "caramel-cheesecake": ["Caramel Cheesecake Swirl", "images/chocolate_vanilla.jpg", "images/bg_chocolate_vanilla.jpg"],
-        "caramel-sorbet": ["Caramel Shortcake Swirl", "images/strawberry_mint.jpg", "images/bg_strawberry_mint.jpg"],
-        "caramel-chip": ["Caramel Chocolate Chip Swirl", "images/caramel_chocolate.jpg", "images/bg_caramel_chocolate.jpg"],
-        "caramel-white": ["Caramel Cookie Dough Swirl", "images/vanilla_mint.jpg", "images/bg_vanilla_mint.jpg"],
-        "caramel-hazelnut": ["Caramel Hazelnut Swirl", "images/strawberry_caramel.jpg", "images/bg_strawberry_caramel.jpg"]
+        "caramel-cheesecake": ["Caramel Cheesecake Swirl", "images/chocolate_vanilla.jpg", "/core-2-interaction-project-2/assets/caramel-cheesecake.png"],
+        "caramel-sorbet": ["Caramel Shortcake Swirl", "images/strawberry_mint.jpg", "/core-2-interaction-project-2/assets/caramel-sorbet.png"],
+        "caramel-chip": ["Caramel Chocolate Chip Swirl", "images/caramel_chocolate.jpg", "/core-2-interaction-project-2/assets/caramel-chip.png"],
+        "caramel-white": ["Caramel Cookie Dough Swirl", "images/vanilla_mint.jpg", "/core-2-interaction-project-2/assets/caramel-white.png"],
+        "caramel-hazelnut": ["Caramel Hazelnut Swirl but no image cuz its not pleasant", "images/strawberry_caramel.jpg", "images/bg_strawberry_caramel.jpg"]
     };
     
     const comboKey = [flavor1, flavor2].sort().join("-");
