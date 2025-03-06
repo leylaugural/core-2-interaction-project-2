@@ -7,15 +7,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ice Cream Flavor Generator 🍦</h1>
-    <p>Enter two letters to discover a unique ice cream flavor!</p>
-    <input type="text" id="charInput1" maxlength="1" placeholder="A">
-    <input type="text" id="charInput2" maxlength="1" placeholder="B">
-    <button onclick="generateFlavor()">Generate Flavor</button>
+    <body>
+        <header>
+            <img src="/core-2-interaction-project-2/assets/lylsh-logo.png" alt="Ice Cream Shop Logo" class="logo">
+            <img src="/core-2-interaction-project-2/assets/lylsh-character.png" alt="Decorative Drawing" class="corner-drawing">
+        </header>
     
-    <h2 id="flavorOutput"></h2>
-    <img id="displayedImage" src="" alt="Ice Cream Flavor">
-    
+        <div class="main-container">
+            <div class="container-box">
+                <div class="box">
+                    <h1>Select two flavors to create a unique ice cream combination!</h1>
+                    
+                    <select id="flavorSelect1" onchange="animateFlavor()">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="vanilla">Vanilla</option>
+                        <option value="strawberry">Strawberry</option>
+                        <option value="mint">Mint</option>
+                        <option value="caramel">Caramel</option>
+                    </select>
+                    
+                    <select id="flavorSelect2" onchange="animateFlavor()">
+                        <option value="cheesecake">Cheesecake</option>
+                        <option value="sorbet">Sorbet</option>
+                        <option value="chip">Chocolate Chip</option>
+                        <option value="white">White Chocolate</option>
+                        <option value="hazelnut">Hazelnut</option>
+                    </select>
+                    
+                    <button onclick="generateFlavor()">Generate Flavor</button>
+                </div>
+                
+                <div class="machine-box" id="combinationBox">
+                    <h2>Flavor Machine Output:</h2>
+                    <p id="flavorOutput">Your flavor combination will appear here!</p>
+                </div>
+                <div class="display-section">
+                    <div id="animationContainer"></div>
+                </div>
+            </div>
+        </div>
     <script src="script.js"></script>
 </body>
 </html>
